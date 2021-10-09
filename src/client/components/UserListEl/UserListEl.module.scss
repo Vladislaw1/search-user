@@ -1,0 +1,22 @@
+.user_List_El{
+    background: #282c34;
+    border-radius: 10px;
+    justify-self: center;
+    &_Link{
+        text-decoration: none;
+        color: black;
+    }
+    &:hover{
+        cursor: pointer;
+        box-shadow: 2px 3px 10px black;
+        //border: 1px solid orange;
+    }
+}
+.user_Img{
+    width: 200px;
+    height: 200px;
+}
+.user_Login{
+    color: white;
+    text-decoration: none;
+}

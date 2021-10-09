@@ -1,0 +1,28 @@
+@import "../../../shared/styles/base";
+
+.repo_list_el{
+  width: 300px;
+  border: 1px solid black;
+  padding: 5px;
+  font-family: $font-family-text;
+
+  &_link{
+    @include flex(space-between,center);
+    text-decoration: none;
+    color: black;
+  }
+
+  &_caption{
+    font-weight: 700;
+  }
+
+  &_data{
+    margin: 0;
+    font-weight: 400;
+  }
+
+  &:hover{
+    cursor: pointer;
+    box-shadow: 2px 3px 10px black;
+  }
+}

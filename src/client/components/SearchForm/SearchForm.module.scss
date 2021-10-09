@@ -1,0 +1,25 @@
+@import "../../../shared/styles/base";
+
+.form{
+    position: relative;
+}
+.iconSearch{
+    fill: $primary-color;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    width: 15px;
+}
+.inputLogin{
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: transparent;
+    border: $primary-color 1px solid;
+    font-family: $font-family-text;
+    color: $primary-color;
+    &:focus{
+        background: white;
+        outline: none !important;
+        box-shadow: 3px 5px 7px $primary-color;
+    }
+}

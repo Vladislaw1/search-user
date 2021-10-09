@@ -1,0 +1,25 @@
+@import "../../../shared/styles/base";
+
+.user_info {
+  @include flex(center);
+
+  &_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+}
+.user_data{
+  font-family: $font-family-text;
+  color: white;
+  margin: 0;
+  &:not(:last-child){
+    margin-bottom: 13px;
+  }
+  &_caption{
+    color: black;
+    font-weight: 700;
+  }
+}
+

@@ -1,0 +1,8 @@
+.userList{
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
